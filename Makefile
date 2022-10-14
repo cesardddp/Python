@@ -12,4 +12,7 @@ eval "$(pyenv virtualenv-init -)"
 install-essentials:
     sudo apt update
     sudo apt -y upgrade
-    sudo apt install -y build-essential libssl-dev libffi-dev # python3-dev
+    sudo apt install build-essential zlib1g-dev libncurses5-dev\
+    libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev\
+    libsqlite3-dev wget libbz2-dev -y
+    # python3-dev

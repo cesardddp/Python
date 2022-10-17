@@ -14,5 +14,5 @@ install-essentials:
     sudo apt -y upgrade
     sudo apt install build-essential zlib1g-dev libncurses5-dev\
     libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev\
-    libsqlite3-dev wget libbz2-dev -y
+    libsqlite3-dev wget libbz2-dev tk-dev liblzma-dev -y
     # python3-dev
